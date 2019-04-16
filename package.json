@@ -6,6 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
+  "rnpm": {
+    "assets":["./assets/fonts/"]
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "lodash": "^4.17.11",
@@ -22,7 +25,6 @@
   "devDependencies": {
     "@babel/polyfill": "^7.0.0",
     "@babel/core": "^7.4.3",
-    "@babel/runtime": "^7.4.3",
     "babel-jest": "^24.7.1",
     "jest": "^24.7.1",
     "metro-react-native-babel-preset": "^0.53.1",
